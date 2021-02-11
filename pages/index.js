@@ -14,8 +14,8 @@ const Home = ({ lesson }) => {
         >
           <p className="text-center text-4xl mt-32 font-bold">
             You can embed a{' '}
-            <strong className="text-indigo-800 font-bold">preview</strong> on
-            the home page 😱
+            <strong className="text-pink-800 font-bold">preview</strong> on the
+            home page 😱
           </p>
 
           <BrowserMockup title="example.com">

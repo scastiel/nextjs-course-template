@@ -50,7 +50,7 @@ const Login = () => {
           <label className="flex flex-col space-y-2">
             <span>E-mail address</span>
             <input
-              className="max-w-xs border p-1 rounded focus:no-outline focus:ring focus:ring-indigo-300"
+              className="max-w-xs border p-1 rounded focus:no-outline focus:ring focus:ring-pink-300"
               type="email"
               name="email"
               placeholder="john.doe@example.com"

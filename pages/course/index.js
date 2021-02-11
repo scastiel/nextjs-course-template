@@ -16,7 +16,7 @@ const LessonsList = ({ lessons }) => {
     <>
       {lessons.map((lesson) => (
         <Fragment key={lesson.slug}>
-          <li className="border border-b-0 last:border-b first:rounded-t-md last:rounded-b-md border-gray-200 bg-white hover:bg-indigo-50">
+          <li className="border border-b-0 last:border-b first:rounded-t-md last:rounded-b-md border-gray-200 bg-white hover:bg-pink-50">
             <Link href={`/course/${lesson.slug}`}>
               <a
                 className={`block p-2 ${

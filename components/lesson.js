@@ -37,7 +37,7 @@ export const Lesson = ({ lesson }) => {
   }
 
   return (
-    <article className="prose prose-indigo max-w-none">
+    <article className="prose prose-pink max-w-none">
       <h1>
         {header}
         {title}

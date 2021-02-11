@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const Footer = () => {
   return (
-    <footer className="mt-16 lg:mt-64 bg-indigo-900 text-indigo-200 md:p-16 sm:p-8 p-4 leading-7">
+    <footer className="mt-16 lg:mt-64 bg-pink-900 text-pink-200 md:p-16 sm:p-8 p-4 leading-7">
       <p className="text-2xl mb-4">
         <Link href="/">
           <a className="text-white">Next.js course template</a>
