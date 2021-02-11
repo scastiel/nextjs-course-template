@@ -1,0 +1,80 @@
+.prose code::before,
+.prose code::after {
+  content: '';
+}
+
+.prose pre {
+  background: none;
+  padding: 0;
+}
+
+.prose > pre:not(:last-of-type) {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.live-result {
+  @apply rounded-b-lg bg-white text-black font-sans;
+}
+
+.live-result input {
+  @apply border border-gray-300 rounded p-1;
+}
+
+.live-result p {
+  @apply my-1;
+}
+
+input,
+textarea {
+  @apply focus:outline-none focus:ring-2 focus:ring-indigo-300;
+}
+
+.live-result button {
+  @apply focus:outline-none focus:ring-2 focus:ring-indigo-300 bg-indigo-600 hover:bg-indigo-500 text-white px-3 py-1 rounded-md;
+}
+
+.prose details {
+  @apply my-6;
+}
+
+.prose details summary {
+  @apply text-indigo-800 cursor-pointer focus:outline-none focus:ring-2 focus:ring-indigo-300;
+}
+
+.prose details[open] {
+  @apply border-l-4 pl-4 border-indigo-300;
+}
+
+.prose figcaption {
+  @apply text-center;
+}
+
+.btn {
+  @apply text-indigo-800 rounded inline-block;
+
+  &:disabled,
+  &.disabled {
+    @apply opacity-80 pointer-events-none;
+  }
+
+  &:not(&.btn-big) {
+    @apply px-4 py-2;
+  }
+
+  &.btn-link {
+    @apply underline;
+  }
+
+  &.btn-primary {
+    @apply bg-indigo-800 text-white hover:bg-indigo-700;
+  }
+
+  &.btn-secondary {
+    @apply bg-indigo-100 text-indigo-900 hover:bg-indigo-200;
+  }
+
+  &.btn-big {
+    @apply text-xl px-8 py-4 rounded-lg;
+  }
+}
