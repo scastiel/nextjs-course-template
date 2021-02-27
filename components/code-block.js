@@ -53,7 +53,7 @@ export const CodeBlock = ({ className, metastring, children }) => {
           <div className="p-2">
             <div className="rounded-lg" style={{ borderColor: '#6272a4' }}>
               <div
-                className="rounded-t-lg text-xs px-2 py-1"
+                className="rounded-t-lg text-xs px-2 py-1 text-white font-bold"
                 style={{ backgroundColor: '#6272a4' }}
               >
                 Result
